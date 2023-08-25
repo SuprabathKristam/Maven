@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('ContinuousDownload')
     {
-          git 'https://github.com/SuprabathKristam/Repo1.git'
+          git 'https://github.com/SuprabathKristam/Maven.git'
     }
     stage('ContinuousBuild')
     {
